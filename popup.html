@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Notes
+</title>
+<link rel="stylesheet" href="popup.css" type="text/css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<script src="jquery-3.2.1.min.js"></script>
+<script src="popup.js"></script>
+<script src="delete.js"></script>
+
+</head>
+  <body id="body">
+    <font size="7px" color="#6b6b47" style="margin-left:60px;margin-top:20px"><i>My Notes</i></font>
+    <span id="alldetails"></span>
+    <input type="text" id="new" align="right" width="400px" placeholder="create folder (eg:Math)"/>
+    <span id="submit" ><button style="margin-top:15px;margin-right:50px" >Submit</button></span>
+  <div class="container">
+  <details id="notes3" open>
+    <summary class="btn btn-success btn-block"><strong><font color="black">Notes</font></strong></summary>
+    <a href="chrome-extension://ojffefdplfkjgcfilifkomfifmdbceme/popup.html" id="deleteAll"><button type="button" class="btn btn-danger">delete All</button></a>
+    </br>
+    <ol id = "notes">
+    </ol>
+  </details>
+  </div>
+  </body>
+</html>

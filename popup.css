@@ -1,0 +1,33 @@
+body{
+  min-width: 500px;
+  min-height: 500px;
+  font-size: 15px;
+  background-image: url("23.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  word-wrap: break-word;
+}
+summary{
+  padding-left:50%;
+  font-style: ialic;
+}
+
+li{
+  margin: 10px 0 ;
+}
+ol {
+    padding: 20px;
+}
+ol li {
+    padding: 5px;
+    margin-left: 35px;
+}
+button{
+  float:right;
+}
+
+#new{
+  position:absolute;
+  top:15px;
+  margin-left: 720px;
+}
